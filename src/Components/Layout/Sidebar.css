@@ -1,0 +1,26 @@
+.sidebar {
+  background-color: #d0c7b5; /* #50a12e #c6c7c840*/
+  height: 100vh;
+  padding: 10px;
+}
+.brandName {
+  margin: 25px;
+  color: #286e1c; /* #286e1c */
+  text-align: center;
+}
+ul li {
+  list-style: none;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+  transition: color ease-in-out 0.3s;
+}
+ul li a:hover {
+  color: #286e1c;
+}
