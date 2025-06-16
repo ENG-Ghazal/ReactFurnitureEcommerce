@@ -1,9 +1,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
+import './assets/fonts/fonts.css';
 import Layout from './Components/Layout/Layout'
-import Category from './Components/Pages/Category'
-import Brand from './Components/Pages/Brand'
-import ShoppingCart from './Components/Pages/ShoppingCart'
+import Category from './Components/Pages/Category/Category'
+import Brand from './Components/Pages/Brand/Brand'
+import ShoppingCart from './Components/Pages/ShoppingCart/ShoppingCart'
 import Home from './Components/Pages/Home'
 
 function App() {
